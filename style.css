@@ -88,6 +88,7 @@ body{
     align-items: center;
 }
 .Navbar-blok-left-page{
+    margin-right: -250px;
     width: 350px;
 }
 .Navbar-blok-right{
@@ -101,15 +102,40 @@ body{
 }
 .span{
     border: 4px solid white;
-    width: 330px;
-    height:330px;
-    margin-left:-280px;
+    width: 450px;
+    height:400px;
+    margin-left:-410px;
 }
 
 .Navbar-blok-right-img img{
     max-width: 100%;
-    width:270px;
-    max-height:270px;
+    width:440px;
+    max-height:340px;
     object-fit: cover;
+}
+.Navbar-botton-container{
+    gap: 80px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar-botton-blok{
+    width: 240px;
+    height: 450px;
+}
+.Navbar-botton-blok img{
+    width: 100%;
+}
+.Navbar-botton-blok p{
+    padding: 15px 0px;
+}
+.Navbar-botton-blok button{
+    padding: 8px 20px;
+    border-color: #7A9CA5;
+    background-color: transparent;
+}
+.Navbar-botton-blok h3{
+    padding-top:8px ;
 }
 
