@@ -465,4 +465,56 @@ textarea{
     left: 50px;
 }
 
+/* <!-- ----aside---- --> */
 
+
+asdie{
+    width: 100%;
+    height: 100%;
+}
+.aside-container{
+    padding: 100px 0px;
+    flex-direction: column;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside-container-item{
+    text-align: center;
+}
+.aside-box{
+    display: flex;
+    gap: 30px;
+
+}
+.aside-blok{
+
+    background-color: #EDF5F7;
+    width: 250px;
+    height: auto;
+}
+.aside-blok img{
+    object-fit: cover;
+    width:100%;
+    height:200px;
+}
+.aside-blok-text{
+    padding: 10px 15px;
+}
+.aside-blok-text h2{
+    font-size: 19px;
+    padding: 10px 0px;
+}
+.aside-blok-text  span{
+    font-size: 10px;
+    color: #5C8692;
+}
+.aside-button{
+    padding: 40px 0px;
+}
+.aside-button button{
+    padding: 10px 20px;
+    border-color: #5C8692;
+    background-color: transparent;
+}
