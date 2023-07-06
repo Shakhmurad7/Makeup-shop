@@ -141,6 +141,40 @@ nav{
     display: flex;
 }
 
+/* <!-- -----main----- --> */
+
+main{
+    padding: 170px 0px;
+    height: 100%;
+    background-color: #EBF3F5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-img img{
+height: 500px;
+}
+.main-container{
+    height: 400px;
+    color: white;
+    background-color: #202d31;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.main-text p{
+    opacity: 0.5;
+}
+.main-text h1{
+    padding: 15px 0px;
+}
+.main-text{
+    width: 350px;
+}
+
 
 /* ----footer---- */
 footer{
