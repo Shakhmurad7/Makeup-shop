@@ -181,6 +181,78 @@ section{
     background-color: rgb(45, 66, 59);
 }
 
+/* <!-- ----main---- --> */
+main{
+    background-color: 
+    #EBF3F5;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-text h1{
+font-size: 2rem;
+}
+.main-text span{
+    color: #5C8692;
+}
+.main-text p{
+    opacity: 0.7;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    width: 440px;
+    text-align: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    flex: content;
+    align-items: center;
+    justify-content: center;
+}
+.main-input-row{
+    border: 1px solid #5C8692;
+    display: flex;
+    margin-top: 10px;
+}
+.main-input-title{
+    display: flex;
+    gap: 15px;
+}
+.main-input-row-left{
+    background-color: white;
+    padding: 10px;
+}
+.main-input-title img{
+    object-fit: contain;
+    width: auto;
+}
+.main-input-title{
+    display: flex;
+}
+.main-input-row-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-input-row-right{
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color:#1E2C30;
+}
+.main-input-row-right img{
+    object-fit: contain;
+    width: 70px ;
+}
+
 
 /* ----footer---- */
 footer{
