@@ -165,13 +165,13 @@ height: 500px;
     justify-content: center;
     gap: 30px;
 }
-.main-text p{
+.main-container-text p{
     opacity: 0.5;
 }
-.main-text h1{
+.main-container-text h1{
     padding: 15px 0px;
 }
-.main-text{
+.main-container-text{
     width: 350px;
 }
 /* <!-- ----section---- --> */
@@ -231,6 +231,116 @@ section{
     display: flex;
     gap: 30px;
     font-size: 18px;
+}
+
+
+.main-box-left img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+.main-box-left{
+    display: flex;
+    gap: 10px;
+}
+.main-box-page-right img{
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+}
+.main-container-box{
+    background-color: white;
+    width: 400px;
+}
+.main-container-box p{
+    padding: 30px;
+}
+.main-box-page{
+    color: white;
+    background-color: #1E2C30;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-container-content{
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.main-big-container{
+    display: flex; 
+    gap: 30px;
+}
+.main-box-text p{
+
+    display: flex;
+    font-size: 10px;
+}
+.main-text p{
+    
+    color:#5C8692;
+}
+.main-text{
+    text-align: center;
+}
+
+
+/* <!-- ----aside---- --> */
+aside{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside-contaienr{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside-cintent-left{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aside-content-text{
+    width: 300px;
+}
+.aside-img-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aside-cintent-right{
+    width: 500px;
+}
+.aside-content-text p{
+    opacity: 0.7;
+}
+.aside-content-text span{
+    color: #5C8692;
+}
+.aside-content-text h1{
+    width: 200px;
+    font-size: 2rem;
+}
+.aside-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.aside-button button{
+    padding: 10px 30px;
+    color: white;
+    background-color: #202d31;
+}
+.aside-button{
+    text-align: center;
+    padding-bottom: 60px;
 }
 
 
