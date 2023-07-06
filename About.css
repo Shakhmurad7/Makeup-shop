@@ -174,6 +174,64 @@ height: 500px;
 .main-text{
     width: 350px;
 }
+/* <!-- ----section---- --> */
+
+
+section{
+    padding: 100px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-container{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-blok img{
+    object-fit: contain;
+    width: 300px;
+}
+.section-text-top p{
+    padding-bottom: 10px;
+    color:#5C8692;
+}
+.section-text-top h1{
+    font-size: 2rem;
+}
+.section-text-top{
+    width: 400px;
+    text-align: center;
+}
+.section-page{
+    margin: auto 500px;
+    display: flex;
+    gap: 30px;
+}
+.section-blok{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-blok-text span{
+    color: #5C8692;
+}
+.section-blok-text p{
+    padding-bottom:15px;
+}
+.section-blok-text{
+    padding: 10px 0px;
+    text-align: center;
+}
+.section-icon{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
 
 
 /* ----footer---- */
