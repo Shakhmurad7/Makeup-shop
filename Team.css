@@ -51,12 +51,6 @@ body{
     padding: 10px 40px;
     color: white;
 }
-
-
-
-/* <!-- ----nav---- --> */
-
-
 nav{
     background-color: #111e22a1;
     background-blend-mode: multiply;
@@ -99,81 +93,7 @@ nav{
     color: white;
 }
 
-.nav-content{
-    padding: 100px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.nav-box-text h3{
-    padding-bottom: 7px;
 
-}
-.nav-content-page{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.nav-box-img img{
-    object-fit: contain;
-    padding: 5px;
-    width: 100%;
-    height:100%;
-}
-.nav-box-img{
-
-    background-color:#F2FCFF;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    padding: 5px 0px;
-    border: 1px solid;
-}
-.nav-content-box{
-    border-bottom: 1px solid rgba(107, 107, 107, 0.626);
-    padding: 60px 0px;
-    gap: 20px;
-    width: 500px;
-    align-items: center;
-    display: flex;
-}
-
-/* <!-- -----main----- --> */
-
-main{
-    padding: 170px 0px;
-    height: 100%;
-    background-color: #EBF3F5;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.main-img img{
-height: 500px;
-}
-.main-container{
-    height: 400px;
-    color: white;
-    background-color: #202d31;
-    padding: 20px 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-.main-container-text p{
-    opacity: 0.5;
-}
-.main-container-text h1{
-    padding: 15px 0px;
-}
-.main-container-text{
-    width: 350px;
-}
 /* <!-- ----section---- --> */
 
 
@@ -196,7 +116,7 @@ section{
 }
 .section-text-top p{
     padding-bottom: 10px;
-    color: #5c8692 !important;;
+    color:#5C8692;
 }
 .section-text-top h1{
     font-size: 2rem;
@@ -217,7 +137,7 @@ section{
     justify-content: center;
 }
 .section-blok-text span{
-    color: #5C8692 !important;
+    color: #5C8692;
 }
 .section-blok-text p{
     padding-bottom:15px;
@@ -232,123 +152,9 @@ section{
     gap: 30px;
     font-size: 18px;
 }
-a{
-    color: black;
-    text-decoration: none;
-}
 
 
-.main-box-left img{
-    object-fit: cover;
-    width: 50px;
-    height: 50px;
-}
-.main-box-left{
-    display: flex;
-    gap: 10px;
-}
-.main-box-page-right img{
-    object-fit: contain;
-    width: 50px;
-    height: 50px;
-}
-.main-container-box{
-    background-color: white;
-    width: 400px;
-}
-.main-container-box p{
-    padding: 30px;
-}
-.main-box-page{
-    color: white;
-    background-color: #1E2C30;
-    padding: 10px 30px;
-    display: flex;
-    justify-content: space-between;
-}
-.main-container-content{
-    gap: 40px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-   
-}
-.main-big-container{
-    display: flex; 
-    gap: 30px;
-}
-.main-box-text p{
-
-    display: flex;
-    font-size: 10px;
-}
-.main-text p{
-    
-    color:#5C8692;
-}
-.main-text{
-    text-align: center;
-}
-
-
-/* <!-- ----aside---- --> */
-aside{
-    padding: 100px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.aside-contaienr{
-    gap: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.aside-cintent-left{
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.aside-content-text{
-    width: 300px;
-}
-.aside-img-right{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.aside-cintent-right{
-    width: 500px;
-}
-.aside-content-text p{
-    opacity: 0.7;
-}
-.aside-content-text span{
-    color: #5C8692;
-}
-.aside-content-text h1{
-    width: 200px;
-    font-size: 2rem;
-}
-.aside-content-text{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.aside-button button{
-    padding: 10px 30px;
-    color: white;
-    background-color: #202d31;
-}
-.aside-button{
-    text-align: center;
-    padding-bottom: 60px;
-}
-
-
-/* ----footer---- */
+/* <!-- ----footer---- --> */
 footer{
     background-color:  #1E2C30;
     height: 100%;
@@ -413,4 +219,5 @@ footer{
     color: white;
     background-color: #111E22;
 }
+
 
