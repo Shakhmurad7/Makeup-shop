@@ -51,6 +51,12 @@ body{
     padding: 10px 40px;
     color: white;
 }
+
+
+
+/* <!-- ----nav---- --> */
+
+
 nav{
     background-color: #111e22a1;
     background-blend-mode: multiply;
@@ -76,7 +82,6 @@ nav{
     color: white;
     padding: 100px 0px;
     text-align: center;
-
 }
 .nav-content-page h1{
     padding-top: 10px;
@@ -93,72 +98,70 @@ nav{
     color: white;
 }
 
-
-/* <!-- ----section---- --> */
-
-
 section{
     padding: 100px 0px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.section-container{
-    gap: 30px;
+.scetion-container{
     display: flex;
-    flex-direction: column;
+    gap: 70px;
     align-items: center;
     justify-content: center;
 }
-.section-blok img{
-    object-fit: contain;
-    width: 300px;
+.scetion-container img{
+    width: 100%;
+    height: 100%;
 }
-.section-text-top p{
-    padding-bottom: 10px;
-    color:#5C8692;
-}
-.section-text-top h1{
-    font-size: 2rem;
-}
-.section-text-top{
-    width: 400px;
-    text-align: center;
-}
-.section-page{
-    margin: auto 500px;
-    display: flex;
-    gap: 30px;
-}
-.section-blok{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.section-blok-text span{
+.section-text span{
     color: #5C8692;
 }
-.section-blok-text p{
-    padding-bottom:15px;
+.section-text{
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-.section-blok-text{
-    padding: 10px 0px;
-    text-align: center;
+.section-text h1{
+    font-size: 2.3rem;
+}
+section p{
+    font-size: 13px;
+}
+.section-text button{
+    border: #5C8692;
+    padding: 10px 30px;
+    background-color: #5C8692;
+    width: 200px;
+    color: white;
+}
+.section-text-blok p{
+    font-weight: 700;
+}
+.section-text-blok{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.section-text-blok img{
+    border: 1px solid #5C8692;
+    padding: 10px;
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
 }
 .section-icon{
-    justify-content: center;
     display: flex;
-    gap: 30px;
-    font-size: 18px;
-}
-a{
-    color: black;
-    text-decoration: none;
+    gap: 20px;
 }
 
 
-/* <!-- ----footer---- --> */
+
+
+
+/* ----footer---- */
 footer{
     background-color:  #1E2C30;
     height: 100%;
@@ -223,5 +226,4 @@ footer{
     color: white;
     background-color: #111E22;
 }
-
 
