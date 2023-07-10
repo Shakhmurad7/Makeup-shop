@@ -6,6 +6,9 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+button{
+    cursor: pointer;
+}
 
 /* <!-- ----Header---- --> */
 
@@ -32,6 +35,7 @@ body{
     text-decoration: none;
 }
 .header-icon{
+    cursor: pointer;
     display: flex;
     gap: 20px;
 }
@@ -165,6 +169,109 @@ section p{
     height: 40px;
 }
 
+aside{
+    padding: 100px 0px;
+    flex-direction: column;
+    background-color: 
+    #EBF3F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside-top-text h1{
+    padding: 10px 0px;
+    font-size: 2.3rem;
+}
+.aside-top-text span{
+    color: #5C8692;
+}
+.aside-top-text p{
+    opacity: 0.7;
+   width: 450px;
+}
+.aside-top-text{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aside-big-content{
+    background-color: white;
+    padding: 50px 60px;
+}
+.asdie-container{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.aside-content-p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside-big-content p{
+    color:#5C8692;
+    width: 500px;
+}
+.aside-content{
+    padding-bottom: 40px;
+    display: flex;
+    gap: 10px;
+}
+.aside-content button{
+    color: white;
+    background-color: #5C8692;
+    width: 100%;
+    padding: 10px ;
+}
+.aside-content input , textarea{
+    resize: none;
+    outline:none;
+    border: 1px solid #5C8692 !important;
+    border: none;
+    padding: 10px 20px 10px 50px;
+    width: 100%;
+}
+.aside-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.input-icon-user{
+    opacity: 0.5;
+    top: 10px;
+    left: 17px;
+    position: absolute;
+}
+.input-icon-phone{
+    opacity: 0.5;
+    top: 54px;
+    left: 17px;
+    position: absolute;
+}
+.input-icon-pen{
+    opacity: 0.5;
+    top: 97px;
+    left: 17px;
+    position: absolute;
+}
+.input-icon-email{
+    opacity: 0.5;
+    top: 137px;
+    left: 17px;
+    position: absolute;  
+}
+.input-icon-book{
+    opacity: 0.5;
+    top: 180px;
+    left: 17px;
+    position: absolute;
+}
+
+
 /* ----footer---- */
 footer{
     background-color:  #1E2C30;
@@ -201,6 +308,7 @@ footer{
     gap: 20px;
 }
 .footer-icon{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;

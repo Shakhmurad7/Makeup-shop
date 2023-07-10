@@ -6,7 +6,9 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-
+button{
+    cursor: pointer;
+}
 /* <!-- ----Header---- --> */
 
 .header-container{
@@ -32,6 +34,7 @@ body{
     text-decoration: none;
 }
 .header-icon{
+    cursor: pointer;
     display: flex;
     gap: 20px;
 }
@@ -200,6 +203,7 @@ footer{
     gap: 20px;
 }
 .footer-icon{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
