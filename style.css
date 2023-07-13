@@ -665,6 +665,12 @@ footer {
   }
 }
 @media (max-width: 1150px) {
+  .select ul {
+    position: static;
+  }
+  .open.select:hover {
+    display: none;
+  }
   .Navbar-botton-container {
     padding: 100px 0px;
     height: 100%;
