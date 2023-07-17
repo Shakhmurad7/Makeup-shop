@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  overflow-x:hidden;
 }
 * {
   padding: 0;
@@ -162,10 +162,12 @@ nav {
   border: 1px solid;
 }
 .nav-content-box {
+
   border-bottom: 1px solid rgba(107, 107, 107, 0.626);
   padding: 60px 0px;
   gap: 20px;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   align-items: center;
   display: flex;
 }
@@ -185,6 +187,8 @@ main {
   height: 500px;
 }
 .main-container {
+  width: 100%;
+  max-width: 1000px;
   height: 400px;
   color: white;
   background-color: #202d31;
@@ -220,7 +224,7 @@ section {
 }
 .section-blok img {
   object-fit: contain;
-  width: 300px;
+  width: 280px;
 }
 .section-text-top p {
   padding-bottom: 10px;
@@ -230,15 +234,21 @@ section {
   font-size: 2rem;
 }
 .section-text-top {
-  width: 400px;
+  max-width: 400px;
+  width:100%;
   text-align: center;
 }
 .section-page {
-  margin: auto 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   display: flex;
   gap: 30px;
 }
 .section-blok {
+  text-align: center;
+  width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -281,7 +291,8 @@ a {
 }
 .main-container-box {
   background-color: white;
-  width: 400px;
+  width:100%;
+  max-width: 400px;
 }
 .main-container-box p {
   padding: 30px;
@@ -301,6 +312,9 @@ a {
   flex-direction: column;
 }
 .main-big-container {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   display: flex;
   gap: 30px;
 }
@@ -323,13 +337,14 @@ aside {
   align-items: center;
 }
 .aside-contaienr {
+  flex-wrap: wrap;
   gap: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .aside-cintent-left {
-  width: 400px;
+
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -338,12 +353,14 @@ aside {
   width: 300px;
 }
 .aside-img-right {
+  align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.aside-cintent-right {
-  width: 500px;
+.aside-cintent-left img{
+  width: 100%;
 }
 .aside-content-text p {
   opacity: 0.7;
@@ -602,7 +619,22 @@ footer {
     display: flex;
   }
 }
+@media (max-width: 750px) {
+  .main-img img{
+    display: none;
+  }
+  .aside-img-right img{
+    width: 100%;
+    max-width: 400px;
+  }
+}
 @media (max-width: 670px) {
+  .main-container {
+    padding: 0 10px;
+  }
+  .nav-box-img{
+    display: none;
+  }
   .footer-container {
     margin: auto 30px;
   }
