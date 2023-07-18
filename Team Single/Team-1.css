@@ -181,6 +181,7 @@ section {
   align-items: center;
 }
 .scetion-container {
+  flex-wrap: wrap;
   display: flex;
   gap: 70px;
   align-items: center;
