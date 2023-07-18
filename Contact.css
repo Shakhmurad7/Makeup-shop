@@ -137,6 +137,7 @@ section {
 }
 
 .scetion-container {
+  flex-wrap: wrap;
   display: flex;
   gap: 70px;
   justify-content: center;
@@ -213,7 +214,6 @@ aside {
 }
 .aside-top-text p {
   opacity: 0.7;
-  width: 450px;
 }
 .aside-top-text {
   display: flex;
@@ -227,6 +227,8 @@ aside {
   padding: 50px 60px;
 }
 .asdie-container {
+  max-width: 500px;
+  width: 100%;
   display: flex;
   gap: 40px;
   flex-direction: column;
